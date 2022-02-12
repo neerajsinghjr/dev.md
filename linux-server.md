@@ -1,11 +1,10 @@
-# ==========================================
-# Linux Server Setups --linux-server --start
-# ==========================================
+# Linux Server Setups
 
 In this guide I will go through all the steps to create a VPS, secure it and deploy a Django application. This is a summarized document from this [digital ocean doc](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04)
 
 Any commands with "$" at the beginning run on your local machine and any "#" run when logged into the server
 
+## Linux Server Setup Guide
 ## Create A Digital Ocean Droplet
 
 Use [this link](https://m.do.co/c/5424d440c63a) and get $10 free. Just select the $5 plan unless this a production app.
@@ -517,7 +516,3 @@ server {
 # sudo systemctl restart nginx
 # sudo systemctl restart gunicorn
 ```
-
-# ==========================================
-# File Ends Not Learning !
-# ==========================================
